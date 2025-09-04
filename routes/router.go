@@ -56,6 +56,7 @@ func setupAuthRoutes(rg *gin.RouterGroup, db *gorm.DB) {
 	{
 		auth.POST("/register", userController.CreateUser)
 		auth.POST("/login", userController.Login)
+		auth.POST("/logout", middleware.JWTAuth(), userController.Logout)
 	}
 }
 

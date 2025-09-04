@@ -6,7 +6,10 @@
       "Bash(go run:*)",
       "Read(d:\\www\\cursor01\\cladeCodeTest\\config/**)",
       "Read(d:\\www\\cursor01\\cladeCodeTest/**)",
-      "Read(d:\\www\\cursor01\\cladeCodeTest\\middleware/**)"
+      "Read(d:\\www\\cursor01\\cladeCodeTest\\middleware/**)",
+      "Bash(go:*)",
+      "Bash(GOOS=windows GOARCH=amd64 go build -o app.exe main.go)",
+      "Bash(set GOTOOLCHAIN=go1.22.5)"
     ],
     "deny": [],
     "ask": [],
