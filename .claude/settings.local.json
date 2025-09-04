@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(go mod:*)",
+      "Bash(go get:*)",
+      "Bash(go run:*)",
+      "Read(d:\\www\\cursor01\\cladeCodeTest\\config/**)",
+      "Read(d:\\www\\cursor01\\cladeCodeTest/**)",
+      "Read(d:\\www\\cursor01\\cladeCodeTest\\middleware/**)"
+    ],
+    "deny": [],
+    "ask": [],
+    "additionalDirectories": [
+      "d:\\www\\cursor01\\cladeCodeTest"
+    ]
+  }
+}
