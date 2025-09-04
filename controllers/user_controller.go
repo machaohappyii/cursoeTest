@@ -152,7 +152,6 @@ func (uc *UserController) Logout(c *gin.Context) {
 		token = authHeader[7:]
 	} else {
 		utils.BadRequestResponse(c, "Invalid authorization header format")
-
 		return
 	}
 
