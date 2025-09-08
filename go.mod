@@ -1,14 +1,15 @@
 module gin-user-api
 
-go 1.23.0
-
-toolchain go1.24.7
+go 1.25.0
 
 require (
 	github.com/gin-contrib/cors v1.7.6
 	github.com/gin-gonic/gin v1.10.1
 	github.com/golang-jwt/jwt/v5 v5.3.0
 	github.com/jinzhu/gorm v1.9.16
+	github.com/swaggo/files v1.0.1
+	github.com/swaggo/gin-swagger v1.6.1
+	github.com/swaggo/swag v1.16.6
 	golang.org/x/crypto v0.41.0
 	gopkg.in/yaml.v2 v2.4.0
 )
